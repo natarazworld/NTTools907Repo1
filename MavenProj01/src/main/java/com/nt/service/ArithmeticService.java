@@ -5,7 +5,8 @@ public class ArithmeticService {
 	
 	public  int sum(int x,int y) {
 		System.out.println("ArithmeticService.sum() 789");
-		
+		System.out.println("ArithmeticService.sum() 123");
+
 		return x+y;
 	}
 	
