@@ -3,12 +3,12 @@ package com.nt.nb;
 public class NetBankingService {
 
 	
-	public  String    doPayment(long srcAcno,long destAcno, double  amount) {
+	public  String    doPayment(long srcAcno,long destAcno, double  amount,String mode) {
 		System.out.println("NetBankingService.doPayment()");
-		if(srcAcno<0  ||  destAcno<0  ||  amount<0)
+		if(srcAcno<0  ||  destAcno<0  ||  amount<0 || mode.equalsIgnoreCase(""))
 			throw  new IllegalArgumentException("Invalid  inputs");
 		
-		return amount+" amount is transfered from "+srcAcno+" to"+destAcno;
+		return amount+" amount is transfered from "+srcAcno+" to"+destAcno+ "using "+mode;
 	}
 	
 	public  String  doChequePayment(long chequeNo,  double amount) {
