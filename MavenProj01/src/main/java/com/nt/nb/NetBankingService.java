@@ -18,4 +18,9 @@ public class NetBankingService {
 		
 		return  amount+" amount is  withdrawn  using cheque Number ::"+chequeNo;
 	}
+	
+	public String  sayHello() {
+		return  " Good Morning";
+		
+	}
 }
