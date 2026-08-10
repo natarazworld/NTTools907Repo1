@@ -12,4 +12,8 @@ public class Arithmetic {
 		System.out.println("Arithmetic.sub()");
 		return x-y;
 	}
+	
+	public  int mul(int x,int y) {
+		return  x*y;
+	}
 }
