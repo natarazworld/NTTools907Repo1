@@ -18,6 +18,7 @@ public class Arithmetic {
 	}
 	
 	public  int  div(int x,int y) {
+		System.out.println("Arithmetic.div()");
 		return x/y;
 	}
 	
