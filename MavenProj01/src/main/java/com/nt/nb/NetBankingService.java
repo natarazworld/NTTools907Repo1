@@ -18,4 +18,11 @@ public class NetBankingService {
 		
 		return  amount+" amount is  withdrawn  using cheque Number ::"+chequeNo;
 	}
+
+	
+	public   String doDDPayment(long ddno, double amount) {
+		System.out.println("NetBankingService.doDDPayment()");
+		return  amount+"  amount is  given through  DD";
+	}
+	
 }
