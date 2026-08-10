@@ -25,4 +25,9 @@ public class NetBankingService {
 		return  amount+"  amount is  given through  DD";
 	}
 	
+	public  int    add3Numbers(int x,int y ,int z) {
+		return  x+y+z;
+	}
+	
+	
 }
