@@ -11,6 +11,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet("/season")
+
 public class SeasonFinderServlet extends HttpServlet {
 	
 	
